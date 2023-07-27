@@ -1,0 +1,13 @@
+token in c
+1 identifiers
+2 keywords - 32 
+3 operators & punctionary
+4 constants
+5 string
+6 special symbol
+hello im nishan pradhan 
+pratik rana
+nishan ko iphone bandae xa aagha usko aaba dekhi level bado. 
+uh iphone user vayo. Hami garib ko android matra xa
+uh auta rich kid hoo uh dhani xaa
+int matra vamnnu sigh intiger hoo, tai vayera int matr

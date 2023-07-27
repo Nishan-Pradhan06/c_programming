@@ -1,0 +1,15 @@
+types of data types
+    fundamental datatypes
+        ing/long ---> 16 bit depends on machine
+             signed use all negative as well postive 
+             unsigned only postive
+        float/double
+        char
+        void
+
+       
+
+
+    derived datatypes
+
+    user-defined datatypes

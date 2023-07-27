@@ -4,7 +4,7 @@
 int main()
 {
     float principal, rate, time, simple_interest; // creating varibale
-    printf("Enter the Principal amount: ");       // taking input from user for principal amount
+    printf("Enter the Principal amount: "); // taking input from user for principal amount
     scanf("%f", &principal);
     printf("Enter the Rate amount: "); // taking input from user for rate amount
     scanf("%f", &rate);

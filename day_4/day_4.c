@@ -1,6 +1,4 @@
-
-
-
+// using the quote and slash in output
 #include <stdio.h>
 #include <conio.h>
 int main()

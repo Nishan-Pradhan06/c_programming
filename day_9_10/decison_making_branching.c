@@ -11,7 +11,31 @@
                      do something;
                 }
     -- 2 if else
+            syntax if(conditions)
+                    {
+                        statement-block-1;
+                    }
+                    else{
+                        statement-block-2;
+                    }
     -- 3 else if ladder
+            syntax if(conditions)
+                    {
+                        statement-block-1;
+                    }
+                    else if (condition 2)
+                    {
+                        statement-block-2;
+                    }
+                    else if (condition 3)
+                    {
+                        statement-block-3;
+                    }
+                    else
+                    {
+                        statement block - n;
+
+                    }
     -- 4 nested if
 
 

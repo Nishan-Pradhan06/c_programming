@@ -5,7 +5,7 @@ int main()
     int a, b, c;
     printf("Enter Number");
     scanf("%d%d%d", &a, &b, &c);
-    if ((a + b) > c && (a + c) > b || (b + c) > a)
+    if ((a + b) > c && (a + c) > b && (b + c) > a)
     {
         /* code */
         printf("It is a triangle");
@@ -16,4 +16,4 @@ int main()
     }
 
     return 0;
-}z
+}

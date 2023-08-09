@@ -5,7 +5,7 @@
 int main()
 {
     float unit, charge;
-    printf("Enter a unit");
+    printf("Enter a unit: ");
     scanf("%f", &unit);
     if (unit <= 20)
     {

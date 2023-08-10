@@ -10,45 +10,43 @@ int main()
 {
     int age;
     char status, gender;
-    printf("Enter your gender: ");
+    printf("Enter your gender(b/g): ");
     fflush(stdin); // clear the input
     scanf("%c", &gender);
     if (gender == 'b')
     {
-        /* code */
-
-        printf("Enter your Married Status: ");
-        fflush(stdin); // clear the input
+        printf("Enter Your Age: ");
+        scanf("%d", &age);
+        printf("Enter your marital-status(m/u): ");
+        fflush(stdin);
         scanf("%c", &status);
-        printf("Enter your Age: ");
-        scanf("%c", &age);
+        if (age > 25 && status == 'm' || age > 30 && status == 'u')
+        {
+            /* code */
+            printf("You are eligible for insurance");
+        }
+
+        else
+        {
+            printf("You are not eligible for insurance");
+        }
+    }
+    else if (gender == 'g')
+    {
+        printf("Enter your age: ");
+        scanf("%d", &age);
+        if (age > 25)
+        {
+            printf("You are eligible for insurance");
+        }
+        else
+        {
+            printf("You are not eligible for insurance");
+        }
     }
     else
     {
-        printf("Enter your Age: ");
-        scanf("%c", &age);
-    }
-
-    fflush(stdin); // clear the input
-
-    if (age >= 25 && status == 'm' && gender == 'b')
-    {
-
-        printf("\nYou are eligible for ABC Company Insurance\n");
-    }
-    else if (age >= 30 && status == 'm' && gender == 'b')
-    {
-        printf("\nYou are eligible for ABC Company Insurance\n");
-    }
-
-    else if (age > 25 && gender == 'f')
-    {
-        /* code */
-        printf("\nYou are eligible for ABC Company Insurance\n");
-    }
-    else
-    {
-        printf("\nSorry you are not eligible for ABC Company Insurance \n");
+        printf("You are not eligible for insurance");
     }
 
     return 0;

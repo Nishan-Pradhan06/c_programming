@@ -4,6 +4,7 @@ if driver is married male and above 25 yrs
 if driver is unmarried male and above 30 yrs
 if driver is female and above 25 yrs
 */
+//wap to find the drive is insured or not
 #include <stdio.h>
 #include <conio.h>
 int main()

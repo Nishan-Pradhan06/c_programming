@@ -9,8 +9,8 @@ int main()
     num1 = num;
 up:
     digit = num % 10;
-    num = num / 10;
     rev = rev * 10 + digit;
+    num = num / 10;
 
     if (num > 0)
         goto up;

@@ -3,10 +3,11 @@
 int main()
 {
     int n = 0, r; // variable declaration
-     // printf("Enter a number: ");
+                  // printf("Enter a number: ");
     // scanf("%d", &num);
 up:
     r = n % 2;
+    // r>0 odd case
     if (r == 0)
     {
         /* code */
@@ -16,7 +17,7 @@ up:
     {
         /* code */
         n = n + 1;
-     
+
         goto up;
     }
 

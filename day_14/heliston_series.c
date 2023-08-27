@@ -1,6 +1,6 @@
 
 
-// wao to find hte sequence 7,22,11,34,17,51 up 10th term
+// wao to find hte sequence 7,22,11,34,17,52 up 10th term
 // heliston series
 // odd xa vhane multu fly by 7*3+1
 // n/2

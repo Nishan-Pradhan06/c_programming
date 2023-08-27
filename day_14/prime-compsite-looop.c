@@ -11,11 +11,10 @@ int main()
         {
             printf("%d is Composite", n);
         }
-        break;
-    }
-    if (i > n / 2)
-    {
-        printf("%d is Prime", n);
+        else if (i > n / 2)
+        {
+            printf("%d is Prime", n);
+        }
     }
 
     return 0;

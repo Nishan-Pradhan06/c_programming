@@ -7,7 +7,7 @@ int main()
     while (i <= 2000)
     {
         j = 2;
-        while (j <= i/2)
+        while (j < i)
         {
             if (i % j == 0)
             {

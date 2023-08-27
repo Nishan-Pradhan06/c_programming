@@ -1,0 +1,1 @@
+//count the digit of number using whileloop

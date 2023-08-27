@@ -10,8 +10,9 @@ int main()
         digit = n % 10;
         // n = n / 10;
         rev = rev * 10 + digit;
+        printf("%d", rev);
     }
-    printf("%d", rev);
+    
 
     return 0;
 }

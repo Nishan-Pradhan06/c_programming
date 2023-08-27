@@ -3,7 +3,7 @@
 int main()
 {
     int n, f = 1, factor;
-    printf("Enter the number");
+    printf("Enter the number: ");
     scanf("%d", &n);
     for (f = 1; n >= f; f++)
     {

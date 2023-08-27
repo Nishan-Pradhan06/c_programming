@@ -4,9 +4,9 @@
 #include<conio.h>
 int main ()
 {
-    int n=201, c=0;
+    int n,m;
     printf("%d",n);
-    for ( c = 200; c <= 2000; c++)
+    for ( n = 200; n <= 2000; n++)
     {
      
        

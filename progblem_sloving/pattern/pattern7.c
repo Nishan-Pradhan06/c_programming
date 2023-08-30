@@ -1,14 +1,10 @@
 // wap to generate the pattern
 /*
-1
-1   2   1
-1   2   3   2   1
-1   2   3   4   3  2    1
-1   2   3   4   5  4    3   2   1
-
-
-
-
+    *
+   **
+  ***
+ ****
+*****
 
 */
 
@@ -20,18 +16,18 @@ int main()
     for (i = 1; i <= 5; i++)
     {
         /* code */
+        for (j = 1; j <= 5 - i; j++)
+        {
+            /* code */
+            printf("");
+        }
         for (j = 1; j <= i; j++)
         {
             /* code */
-            printf("%d", j);
+            printf("*");
         }
-
-        for (k = i - 1; k >= 1; k--)
-        {
-            /* code */
-            printf("%d", k);
-        }
-
+        
         printf("\n");
     }
+    return 0;
 }

@@ -3,7 +3,7 @@
 #include <conio.h>
 int main()
 {
-    int n = 7, i=2;
+    int n = 7, i = 2;
     printf("%d\n", n);
     while (i < 10)
     {

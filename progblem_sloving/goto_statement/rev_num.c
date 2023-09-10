@@ -12,7 +12,7 @@ up:
     rev = rev * 10 + digit;
     if (num > 0)
         goto up;
-    printf("%d", rev);
+    printf("%d is reverse number", rev);
     
     return 0;
 }

@@ -32,4 +32,3 @@ int main()
     return 0;
 }
 
-// wap to read a line of text form keyboard and count the number of character present in the string

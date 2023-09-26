@@ -1,16 +1,12 @@
 #include<stdio.h>
-#include<conio.h>
-#include<string.h>
 int main()
 {
-    char fword[50], sword[50];
-    int i;
-    printf("enter the string for fword : ");
-    gets(fword);
-    for(i=0;i<strlen(fword);i++){
-        sword[i]= fword[i];
-    }
-    sword[i]='\0';
-    printf("the string inside second word is %s  ",sword);
+    float r,Area,Circumference;
+    printf("enter the radius:");
+    scanf("%f",&r);
+    Area = 3.14*r*r;
+    Circumference = 2*3.14*r;
+    printf("The area of circle is %f:",Area);
+    printf("\n\nThe circumference of circle is %f:",Circumference);
     return 0;
 }

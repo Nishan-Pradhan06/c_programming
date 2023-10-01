@@ -1,4 +1,4 @@
-Read temperature in farhenheit and convert it into celsius, where C=5*(F-32)/9.
+//Read temperature in farhenheit and convert it into celsius, where C=5*(F-32)/9.
 #include<stdio.h>
 int main()
 {

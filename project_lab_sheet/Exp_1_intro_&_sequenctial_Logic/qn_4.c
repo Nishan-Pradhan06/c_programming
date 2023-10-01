@@ -1,3 +1,4 @@
+//area  
 #include<stdio.h>
 int main()
 {

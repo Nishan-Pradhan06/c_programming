@@ -9,7 +9,7 @@ int main()
 void natural()
 {
     int num, n, sum = 0, i;
-    printf("Enter the n number: ");
+    printf("how many number you want to: ");
     scanf("%d", &n);
     printf("Enter the  number: ");
     for (i = 1; i <= n; i++)

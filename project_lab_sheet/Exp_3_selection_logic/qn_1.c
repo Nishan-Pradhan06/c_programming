@@ -1,0 +1,1 @@
+// Find the absolute value of a number entered through keyboard without using library function.

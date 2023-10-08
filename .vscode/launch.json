@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/c_programming_basic/global_local_variable",
-      "program": "f:/c_programming_basic/global_local_variable/build/Debug/outDebug",
+      "cwd": "f:/c_programming_basic/function",
+      "program": "f:/c_programming_basic/function/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

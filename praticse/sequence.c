@@ -9,7 +9,7 @@ int main ()
     for ( i = 1; i <= nth_num; i++)
     {
         /* code */
-        printf("%d,",i);
+        printf("%d\t",i);
     }
     return 0;
 }

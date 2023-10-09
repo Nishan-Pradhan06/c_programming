@@ -1,24 +1,27 @@
 // generate hailstone series : 7,22,11,34,17,52,26,13
-#include <stdio.h>
-#include <conio.h>
+#include <stdio.h> // Include the standard input/output library
 int main()
 {
-    int firstnum = 7, term, hailstone_series, i;
-    printf("Hailstone series: ");
-    scanf("%d", &term);
+    int firstnum = 7, term, i; // Declare integer variables
+    // Prompt the user to enter the number of terms in the series
+    printf("Enter how many terms in the series: ");
+    scanf("%d", &term); // Read the input and store it in the 'term' variable
+    printf("Hailstone series: "); // Print a message
+    // Loop 'term' times to generate the Hailstone series
     for (i = 0; i < term; i++)
     {
-        printf("%d", firstnum);
+        printf("%d\t", firstnum); // Print the current term followed by a tab
+
+        // Check if 'firstnum' is even
         if (firstnum % 2 == 0)
         {
-            hailstone_series = firstnum / 2;
-            printf("%d", firstnum);
+            firstnum = firstnum / 2; // If even, calculate the next term
         }
         else
         {
-            hailstone_series = firstnum * 3 + 1;
-            printf("%d ", firstnum);
+            firstnum = firstnum * 3 + 1; // If odd, calculate the next term
         }
     }
-    return 0;
+
+    return 0; // Return 0 to indicate successful execution
 }

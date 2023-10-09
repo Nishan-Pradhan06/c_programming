@@ -1,0 +1,1 @@
+//Calculate HCF / LCM of two input numbers.(LCM = A * B / HCF).

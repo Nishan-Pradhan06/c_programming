@@ -3,18 +3,14 @@
 #include <conio.h>
 int main()
 {
-    int firstnum = 1, term,i,sequence;
+    int term, i, sequence = 0;
     printf("Enter the number of terms: "); // taking input from user for no of terms in series
     scanf("%d", &term);
-   
-    // for (i = 0; i < term; i++)
-    // {
-    //     sequence = firstnum +1;
-    // }
-    // printf("Term are: ");
-    // for (i = 0; i < term; i++)
-    // {
-    //     printf("%d\t", sequence);
-    // }
+    for (i = 1; i <= term; i++)
+    {
+        sequence = sequence + 1;
+        printf("%d\n", sequence);
+    }
+
     return 0;
 }

@@ -6,17 +6,18 @@ int main()
     int firstnum = 7, term, hailstone_series, i;
     printf("Hailstone series: ");
     scanf("%d", &term);
-    for (i = 0; i < firstnum; i++)
+    for (i = 0; i < term; i++)
     {
+        printf("%d", firstnum);
         if (firstnum % 2 == 0)
         {
             hailstone_series = firstnum / 2;
-            printf("%d", hailstone_series);
+            printf("%d", firstnum);
         }
         else
         {
             hailstone_series = firstnum * 3 + 1;
-            printf("%d ", hailstone_series);
+            printf("%d ", firstnum);
         }
     }
     return 0;

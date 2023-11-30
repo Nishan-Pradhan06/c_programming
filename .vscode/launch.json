@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/c_programming_basic/project_lab_sheet/Exp_4_loop_repetitions_logic",
-      "program": "f:/c_programming_basic/project_lab_sheet/Exp_4_loop_repetitions_logic/build/Debug/outDebug",
+      "cwd": "f:/c_programming_basic/pointers",
+      "program": "f:/c_programming_basic/pointers/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

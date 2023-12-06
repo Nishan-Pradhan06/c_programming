@@ -1,0 +1,12 @@
+steps for writing with file
+
+1- open the file for a specific purpose --fopen("filename","r");
+2- do the intented operation
+3- close the file                       --fclose(fp);[]
+
+
+mode of file
+
+1- reading  -- it read the content                              --read-"r"
+2- writing  -- it erase the old content and write new content   --write-"w"
+3- appending -- continue with old content                       --appending-"a"

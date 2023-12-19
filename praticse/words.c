@@ -1,3 +1,5 @@
+// WAP to count the no. of words stored in a data file.
+
 #include <stdio.h>
 int main()
 {
@@ -9,11 +11,15 @@ int main()
     {
         printf("Error!");
     }
-    while ((ch = fgetc(fptr)) != EOF)
+    else
     {
-        if (ch == 32)
+
+        while ((ch = fgetc(fptr)) != EOF)
         {
-            count++;
+            if (ch == 32)
+            {
+                count++;
+            }
         }
     }
     printf("Total words = %d", count + 1);

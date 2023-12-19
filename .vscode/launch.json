@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/c_programming_basic/file_handling",
-      "program": "f:/c_programming_basic/file_handling/build/Debug/outDebug",
+      "cwd": "f:/c_programming_basic/input_output_format",
+      "program": "f:/c_programming_basic/input_output_format/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

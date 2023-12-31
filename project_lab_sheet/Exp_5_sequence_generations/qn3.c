@@ -4,7 +4,7 @@
 
 int main()
 {
-    int firstnum = 0, secondnum = 1, term, i, series = 0; // Declare integer variables and initialize some of them
+    int firstnum = 0, secondnum = 1, term, i, series; // Declare integer variables and initialize some of them
 
     // Prompt the user to enter the number of terms in the series
     printf("Enter how many terms in the series: ");
@@ -15,7 +15,7 @@ int main()
     // Loop 'term' times to generate the Fibonacci series
     for (i = 0; i < term; i++)
     {
-        printf("%d\t", series); // Print the current term followed by a tab
+        printf("%d\t", firstnum); // Print the current term followed by a tab
 
         // Calculate the next term in the Fibonacci series
         series = firstnum + secondnum;

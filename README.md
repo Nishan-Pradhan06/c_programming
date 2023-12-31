@@ -1,4 +1,4 @@
-
+![logo](https://github.com/Nishan-Pradhan06/c_programming/blob/main/assets/banner.jpg)
 ## C Programming Practice Repository
 Welcome to the C Programming Practice Repository. This collection comprises a series of meticulously crafted C programming practice files, designed to aid in the understanding and mastery of fundamental concepts in the C programming language.
 

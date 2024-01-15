@@ -1,28 +1,45 @@
 #include <stdio.h>
-#include <conio.h>
-void evenOdd(int num);
+
+void evenOdd(int num, FILE *evenfp, FILE *oddfp);
+
 int main()
 {
-    int num[], i, chechEvenOdd;
+    int num[5], i;
+    FILE *evenfp, *oddfp;
+
+    evenfp = fopen("even.txt", "w");
+    oddfp = fopen("odd.txt", "w");
+
+    if (evenfp == NULL || oddfp == NULL)
+    {
+        printf("Error opening files for writing.\n");
+        return 1;
+    }
+
     printf("Enter the Numbers:\n");
-    for (i = 0; i <= 5; i++)
+    for (i = 0; i < 5; i++)
     {
         printf("Enter the %d numbers: \t", i + 1);
         scanf("%d", &num[i]);
+        evenOdd(num[i], evenfp, oddfp);
     }
-    chechEvenOdd = evenOdd(num[]);
-    printf("Numbers are stored sucessfully........");
+
+    printf("Numbers are stored successfully.\n");
+
+    fclose(evenfp);
+    fclose(oddfp);
+
     return 0;
 }
 
-void evenOdd(int num[])
+void evenOdd(int num, FILE *evenfp, FILE *oddfp)
 {
     if (num % 2 == 0)
     {
-        printf("%d are even number", num);
+        fprintf(evenfp, "%d\t", num);
     }
     else
     {
-        printf("%d are odd number", num);
+        fprintf(oddfp, "%d\t", num);
     }
 }
